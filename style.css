@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+/* Paragraphs and headings */
+p{
+    font-size:16px;
+    text-align: center;
+}
+.sum{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    text-align: center;
+    margin:1em;
+}
+.text1{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin:2em;
+}
+.text2{
+    color:hsl(223, 47%, 23%);
+    font-weight:700;
+}
+.text3{
+    color:hsl(224, 23%, 55%);
+    font-weight:500;
+}
+/* main */
+.mainFrame{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5%;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    width:100%;
+    flex-direction: column;
+}
+.information{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraphs{
+    display:flex;
+    flex-direction: column;
+    margin-right:2.5em;
+}
+/* links, proceed, cancel */
+a{
+    text-align: center;
+}
+.button1{
+    text-decoration: none;
+    color:hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    margin:2.5em;
+    padding:1em;
+    border-radius: 0.5em;
+    font-weight: 500;
+    box-shadow: 0 0.5em 2em hsl(224, 23%, 55%);
+}
+.button2{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    margin-bottom:2.5em;
+    font-weight: 700;
+}
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight:700;
+    margin:2em;
+    margin-left:3em;
+}
+/* photos */
+.music{
+    margin-right:1.5em;
+}
+/* attribution stuff */
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
