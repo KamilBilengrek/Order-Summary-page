@@ -2,8 +2,8 @@
 
 ## Overview
 
-Hello!
-This is project from the [Frontend Mentor](https://www.frontendmentor.io).
+Hello!  
+This is project from the [Frontend Mentor](https://www.frontendmentor.io).  
 Another projects with the same idea behind it. In this one I decided to focus more on adding comments in my css file and improving readability of my code.
 
 ### Links
